@@ -20,7 +20,13 @@ git clone git@github.com:DCASE-REPO/DESED_task.git
 ```
 Don't forget to configure your environment by their requirements. And install any packages required. Dont't forget to change the path of the dataset to your owns.
 
-Then, please cover the official DESED repo with ATST-RCT codes in this repo and run:
+Then, please cover the official DESED repo with ATST-RCT codes in this repo.
+
+As for the ATST pretrained model, you could download the pretrained model from the following link, with code `2022`:
+```
+https://pan.baidu.com/s/1Nh6Na1azs6lNKPBstBiStw 
+```
+Please also change the path of pretraining model in the configuration file, and to train you own model, run:
 ```bash
 python train_fusion_rct.py
 ```

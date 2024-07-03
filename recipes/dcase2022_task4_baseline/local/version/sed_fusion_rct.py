@@ -14,7 +14,7 @@ from desed_task.utils.scaler import TorchScaler
 from audiossl.transforms.common import MinMax
 import numpy as np
 
-from ..utils import (
+from .utils import (
     batched_decode_preds,
     log_sedeval_metrics,
 )

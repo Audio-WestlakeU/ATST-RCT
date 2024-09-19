@@ -555,7 +555,7 @@ class SEDTask4_2021(pl.LightningModule):
 
         return
 
-    def validation_epoch_end(self, outputs):
+    def on_validation_epoch_end(self, outputs):
         """ Fonction applied at the end of all the validation steps of the epoch.
 
         Args:
